@@ -1,15 +1,9 @@
-from turtle import Turtle, Screen
+import turtle as t
 
-timmy_the_turtle = Turtle()
+tim = t.Turtle()
 
-timmy_the_turtle.forward(100)
-timmy_the_turtle.right(90)
-timmy_the_turtle.forward(100)
-timmy_the_turtle.right(90)
-timmy_the_turtle.forward(100)
-timmy_the_turtle.right(90)
-timmy_the_turtle.forward(100)
-timmy_the_turtle.right(90)
-
-screen = Screen()
-screen.exitonclick()
+for _ in range(15):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()
